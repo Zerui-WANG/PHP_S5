@@ -1,0 +1,52 @@
+
+header{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+footer{
+	background-color: black;
+	display: flex;
+}
+
+footer p{
+	margin: auto;
+	padding: 20px;
+}
+
+#logo img{
+	width: 100px;
+	height: 70px;
+}
+
+body{
+	color: white;
+	background-color: black;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li{
+	margin-right: 15px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+
+a:hover{
+	color: red;
+	text-shadow: 2px 2px 4px red;
+}
+
+.commentaire{
+	color: red;
+}

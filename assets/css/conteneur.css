@@ -1,0 +1,91 @@
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#conteneurCiv{
+	display: flex;
+}
+
+#conteneurWar{
+	display: flex;
+}
+
+.elementCiv a{
+	color: gold;
+}
+
+.elementCiv a:hover{
+	color: gold;
+	text-shadow: 2px 2px 4px gold;
+}
+
+.elementWar a{
+	color: red;
+}
+
+.elementWar a:hover{
+	color: red;
+	text-shadow: 2px 2px 4px red;
+}
+
+.imgAcc{
+	width: 600px;
+	height: 450px;
+	transition: .5s ease;
+}
+
+.elementCiv{
+	border-width: 7px;
+	border-color: gold;
+	border-style: double;
+	background-color: white;
+  	padding: 16px 32px;
+  	text-align: center;
+  	width: 200px;
+}
+
+.elementWar{
+	border-width: 7px;
+	border-color: grey;
+	border-style: inset;
+	background-color: black;
+  	padding: 16px 32px;
+  	text-align: center;
+  	width: 200px;
+}
+
+.midleCiv{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+}
+
+.midleWar{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	right: 25%;
+}
+
+#conteneurCiv:hover .imgAcc{
+	opacity: 0.7;
+}
+
+#conteneurCiv:hover .midleCiv{
+	opacity: 1;
+	
+}
+
+#conteneurWar:hover .imgAcc{
+	opacity: 0.7;
+}
+
+#conteneurWar:hover .midleWar{
+	opacity: 1;
+}
